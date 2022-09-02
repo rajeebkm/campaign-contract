@@ -1,12 +1,13 @@
 import React from 'react';
+import Header from './Header';
 
 //functional component gets called with props
 export default props => {
     return (
         <div>
-            <h1>I am a Header</h1>
+            <Header />
             {props.children}
-            <h1>I am a Footer</h1>
+            {/* <Footer /> */}
         </div>
     );
 
